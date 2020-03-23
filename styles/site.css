@@ -1,0 +1,261 @@
+/* =============================== COMMON ========================== */
+
+body {
+	font: 85%/130% Arial, Helvetica, sans-serif;
+	background: #fff;  
+	margin: 0px;
+	padding: 0px;
+
+}
+.lo-header {
+	background: #227F99;
+	height:70px;
+}
+.lo-nav-strip {
+	background: #E69532;
+	height: 30px;
+	box-shadow: 0px 4px 4px -4px #999;
+}
+#cb-wrapper {
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+}
+table, form {
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+
+/* =============================== MASTHEAD ========================== */
+
+#cb-masthead {
+	margin: 0px;
+	padding: 10px;
+	background: transparent;
+	width:1000px;
+	margin:0 auto;
+}
+#cb-masthead h1 {
+	font-weight: normal;
+	color:#fff;
+	margin-top: 15px;
+}
+#cb-masthead h1 small {
+	font-style: italic;
+	font-size:16px;
+}
+#cb-masthead #cb-links {
+	margin: 10px 10px 0 0;
+	padding: 0px;
+	float: right;
+	color: #eee;
+	font-size: .86em;
+}
+#cb-masthead #cb-links a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 6px 0 6px;
+	background: #EE5921;
+	padding:4px 10px;
+}
+#cb-masthead #cb-logo {
+	margin: 20px 0 20px 20px;
+	padding: 0;
+}
+
+/* =============================== NAVBAR ========================== */
+
+#cb-navbar {
+	height: 30px;
+	width:1000px; margin:0 auto;
+	background: transparent;
+}
+#cb-navbar ul {
+	margin: 0 0 0 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#cb-navbar li {
+	margin: 0;
+	padding: 0px;
+	float: left;
+}
+#cb-navbar a {
+	margin: 0px;
+	padding: 8px 25px;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	height: 14px;
+	font-size: 12px;
+	text-transform: uppercase;
+
+}
+* html #cb-navbar a {
+	padding: 7px 0 3px;
+	width: 120px;
+	text-align: center;
+}
+#cb-navbar a.selected {
+	background: #666666;	
+}
+#cb-navbar a:hover {
+	color: #ffffff;
+	background: #C2C2C2;
+
+}
+.rightButton{
+float: right !important;	
+}
+
+/* =============================== CONTENT ========================== */
+#full-content {
+	width: 1000px;
+	position: relative;
+	}
+#cb-content {
+	position: relative;
+	margin-top: 2px !important;
+	}
+#cb-content h1{
+	color: #227F99;
+	font-size: 22px;
+	line-height: initial;
+}
+#cb-content h2 {
+    color: #ffffff;
+    background-color: #227F99;
+	font-size: 18px;
+	margin: -18px 0 5px;
+	font-weight: normal;
+	padding: 5px;
+	line-height: normal;
+}
+#cb-content h3 {
+	font-size: 15px;
+	margin: 10px 0 5px;
+	padding: 0;
+	color: #227F99;
+	font-weight: normal;
+}
+#cb-content p {
+	font-size: 13px;
+	margin: 3px 0;
+	padding: 0px 5px;
+}
+#cb-content a {
+	color: #227F99;
+	text-decoration: none;
+}
+#cb-content a:hover {
+	text-decoration: underline;
+}
+#cb-content .box{
+	box-shadow: 0px 0px 1px 0px #bbb;
+	padding: 10px;
+	border: 1px solid #ccc ;
+	border-radius: 10px ;
+	background: #f6f6f6 ;
+}
+#cb-content .cb_but {
+    float: right;
+    color: #fff;
+    font-size: 13px;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    min-width: 90px;
+    padding: 6px 16px;
+    margin: 0 3px 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    background: #ffae00;
+
+}
+#cb-content .cb_but:hover {
+	opacity:0.9;
+	text-decoration: none ;
+	cursor: pointer ;
+}
+#cb-content .cb_but a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.centered form table{
+	margin: 0 auto;
+}
+.butSection{
+	width: 180px;
+}
+.eventsContent{
+	word-break: break-word;
+	padding-left: 10px;
+}
+.eventsContent h2{
+	margin-left: 210px !important;
+}
+select[name="InlineAddStatus_ID"]{
+	width: 60px !important;
+}
+input[name="InlineAddPicture"]{
+	width: 90px;
+}
+input[name="InlineAddStartDate"]{
+	width: 70px;
+}
+input[name="InlineAddFinishDate"]{
+	width: 70px;
+}
+textarea{
+	resize: vertical;
+    white-space: pre-line;
+}
+textarea[name="InlineAddTitle"]{
+	width: 150px !important;
+}
+textarea[name="InlineAddDescription"]{
+	width: 180px;
+}
+td[class*="cbResultSetActionCell"]{
+	width: 10px;
+}
+
+
+.galery_img{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	margin: 0 30px 10px 0;
+}
+
+
+/* =============================== FOOTER ========================== */
+
+#cb-footer {
+	clear: both;
+	border-top: 0px solid #a1b5c0;
+	color: #777;
+	margin: 4px 0px 0px 0px;
+	padding: 20px;
+	font-size: 11px;
+	text-align: right;
+}
+#cb-footer p {
+	margin: 0px;
+	padding: 0;
+}
+#cb-footer a {
+	color: #777;
+	text-decoration: underline;
+}
+#cb-footer a:hover {
+	text-decoration: none;
+}
+
